@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar!</h1>
+    </header>
+    <main>
+        <p id="inicio">
+            <label for="iPrimeiroNum">Início:</label>
+            <input type="number" name="primeiroNum" id="iPrimeiroNum">
+        </p>
+        <p id="fim">
+            <label for="iUltimoNum">Fim:</label>
+            <input type="number" name="ultimoNum" id="iUltimoNum">
+        </p>
+        <p id="passo">
+            <label for="iPularNum">Passo:</label>
+            <input type="number" name="pularNum" id="iPularNum" min="1">
+        </p>
+        <input type="button" value="Contar" id="iniciaContador">
+        <div id="resultado">
+            Digite os números e clique em "Contar" para iniciar...
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://github.com/yurigit909">Yuri Barbosa</a>.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
