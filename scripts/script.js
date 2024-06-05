@@ -15,7 +15,7 @@ button.addEventListener('click', () => {
         var pular = Number(passo.value)
 
         if(pular <= 0) {
-            res.innerHTML = `Passo inválido. Considerando PASSO 1.`
+            res.innerHTML = `<p>Passo inválido. Considerando Passo com valor 1.</p>`
             pular = 1
         }
    
